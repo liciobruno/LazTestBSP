@@ -19,10 +19,18 @@ type
 
   {TForm1}
   TForm1 = class(TForm)
-    Button1: TButton;
+    btnGenerate: TButton;
     PaintBox1: TPaintBox;
+    procedure btnGenerateClick(Sender: TObject);
+    procedure FormDestroy(Sender: TObject);
+    procedure PaintBox1Paint(Sender: TObject);
   private
-
+    FRoot: PBSPNode;
+    const MIN_SIZE = 60;   // Dimensione minima sotto la quale non si divide più
+    function CreateNode(AX, AY, AW, AH: Integer): PBSPNode;
+    procedure SplitNode(ANode: PBSPNode, Depth: Integer);
+    procedure CreateRooms(ANode: PBSPNode);
+    procedure DrawDungeon(ACanvas: TCanvas; ANode: PBSPNode);
   public
 
   end;
@@ -33,6 +41,23 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TForm1 }
+
+procedure TForm1.btnGenerateClick(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.FormDestroy(Sender: TObject);
+begin
+
+end;
+
+procedure TForm1.PaintBox1Paint(Sender: TObject);
+begin
+
+end;
 
 end.
 

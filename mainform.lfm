@@ -1,12 +1,13 @@
 object Form1: TForm1
-  Left = 507
+  Left = 756
   Height = 621
-  Top = 130
+  Top = 119
   Width = 838
   Caption = 'Form1'
   ClientHeight = 621
   ClientWidth = 838
   LCLVersion = '4.6.0.0'
+  OnDestroy = FormDestroy
   object btnGenerate: TButton
     Left = 740
     Height = 32
@@ -14,11 +15,13 @@ object Form1: TForm1
     Width = 72
     Caption = 'Generate'
     TabOrder = 0
+    OnClick = btnGenerateClick
   end
   object PaintBox1: TPaintBox
     Left = 9
     Height = 600
     Top = 8
     Width = 720
+    OnPaint = PaintBox1Paint
   end
 end
