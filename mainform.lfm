@@ -1,0 +1,24 @@
+object Form1: TForm1
+  Left = 507
+  Height = 621
+  Top = 130
+  Width = 838
+  Caption = 'Form1'
+  ClientHeight = 621
+  ClientWidth = 838
+  LCLVersion = '4.6.0.0'
+  object btnGenerate: TButton
+    Left = 740
+    Height = 32
+    Top = 8
+    Width = 72
+    Caption = 'Generate'
+    TabOrder = 0
+  end
+  object PaintBox1: TPaintBox
+    Left = 9
+    Height = 600
+    Top = 8
+    Width = 720
+  end
+end
