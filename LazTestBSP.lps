@@ -18,16 +18,18 @@
         <Filename Value="mainform.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainForm"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="26" Y="23"/>
+        <TopLine Value="125"/>
+        <CursorPos X="20" Y="140"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="2">
+    <JumpHistory HistoryIndex="5">
       <Position>
         <Filename Value="mainform.pas"/>
         <Caret Line="16" Column="41"/>
@@ -39,6 +41,18 @@
       <Position>
         <Filename Value="mainform.pas"/>
         <Caret Line="22" Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="199" Column="5" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="31" Column="41" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="129" Column="40" TopLine="112"/>
       </Position>
     </JumpHistory>
     <RunParams>
