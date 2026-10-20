@@ -1,0 +1,31 @@
+# --- Binari e file di compilazione (Sicuri da eliminare) ---
+*.exe
+*.dll
+*.so
+*.dylib
+*.lrs
+*.res
+*.compiled
+*.dbg
+*.ppu
+*.o
+*.or
+*.a
+
+# --- File autogenerati da Lazarus (Informazioni duplicate) ---
+*.rst
+*.rsj
+*.lrt
+
+# --- File locali dell'utente (Sessione dell'IDE, posizioni finestre, ecc.) ---
+*.lps
+
+# --- Cartelle di output e backup automatici ---
+backup/
+*.bak
+lib/
+units/
+
+# --- File di sistema (Opzionale) ---
+.DS_Store
+Thumbs.db
